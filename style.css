@@ -1,0 +1,315 @@
+/* #### GLOBAL START ####*/
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ion-icon {
+    color: #65C9FF;
+    font-size: 75px;
+}
+/* #### GLOBAL END ####*/
+
+/* #### NAV BAR START #### */
+.mb-logo {
+    width: 6%;
+    height: 6%;
+}
+.navbar {
+    position: relative;
+    max-width: 1200px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+}
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-buttons {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio {
+    position: relative;
+    color: black;
+    padding-right: 40px;
+    top: 12px;
+    transition: color .3s;
+}
+
+.portfolio:hover {
+    color: #65C9FF;
+}
+
+.get-in-touch {
+    position: relative;
+    color: #65C9FF;
+    padding: 12px;
+    top: 13px;
+    border: 2.5px solid #65C9FF;
+    border-radius: 25px;
+    transition: background-color .5s;
+    transition: color .1s;
+}
+
+.get-in-touch:hover {
+    color: #ffffff;
+    background-color: #65C9FF;
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.24);
+}
+/* #### NAV BAR END #### */
+
+/* #### MAIN HEADING START #### */
+.avatar {
+    /*width: 10%;
+    height: 10%;*/
+    width: 165px;
+    height: 175px;
+    margin: 70px 75px 25px;
+}
+
+
+.student-developer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.student-developer h1 {
+    margin: 10px;
+    font-size: 48px;
+    color: rgb(19, 28, 51);
+}
+
+.student-developer p {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.devices {
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 375px;
+    height: 305px;
+}
+
+/* #### MAIN HEADING END #### */
+
+/* #### INFO SECTION START #### */
+.info-sec {
+    width: auto;
+    height: 500px;
+    background-image: linear-gradient(#009ff5, #65C9FF);
+}
+
+.info-sec h2 {
+    font-size: 30px ;
+}
+
+.about-me {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+.dual-info {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    width: 1000px;
+    height: 750px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: white;
+    box-shadow: 0px 15px 15px -6px rgba(0,0,0,0.24);
+}
+
+.dual-info h3 {
+    font-size: 24px;
+    color: rgb(19, 28, 51);
+}
+
+.dual-info h4 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #65C9FF;
+}
+
+.dual-info p {
+    font-size: 18px;
+}
+
+.dual-info ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.dual-info li {
+    padding: 4px;
+}
+.dual-info-splitter {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .5px;
+    height: 750px;
+    background-color: rgb(205, 205, 205);
+    z-index: 999;
+}
+
+.info-left {
+    position: relative;
+    float: left;
+    margin: 0px;
+    width: 400px;
+    height: 500px;
+    top: 50px;
+    left: 25%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 499;
+}
+
+.info-right {
+    position: relative;
+    float: right;
+    margin: 0px;
+    width: 400px;
+    height: 500px;
+    top: 50px;
+    left: 15%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 500;
+}
+/* #### INFO SECTION END #### */
+
+/* #### WEB FORM START #### */
+.web-form-background {
+    position: relative;
+    width: auto;
+    height: 300px;
+    top: 20px;
+    background-image: linear-gradient(#009ff5, #65C9FF);
+}
+
+.web-form-plate {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    width: 1000px;
+    height: 550px;
+    z-index: 999;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: white;
+    box-shadow: 0px 15px 15px -6px rgba(0,0,0,0.24);
+}
+
+.web-form {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+input {
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+}
+
+.submit {
+    width: 150px;
+    height: 50px;    
+}
+/* #### WEB FORM END #### */
+
+/* #### FOOTER START #### */
+.footer {
+    position: relative;
+    width: auto;
+    height: 215px;
+    top: 600px;
+    background-color: rgb(37, 38, 58);
+}
+
+.contact-footer {
+    position: relative;
+    width: auto;
+    height: 215px;
+    background-color: rgb(37, 38, 58);
+}
+
+.container {
+    max-height: 800px;
+}
+.footer-container {
+    position: relative;
+    top: -150px;
+}
+
+.footer-links {
+    position: absolute;
+    padding: 0px;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-links li {
+    padding: 10px;
+}
+
+.footer-links a {
+    color: grey;
+    text-decoration: none;
+}
+
+.instagram {
+    font-size: 40px;
+    color: grey;
+}
+/* #### FOOTER END #### */
